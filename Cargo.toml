@@ -2,6 +2,7 @@
 
 name = "rust-hello-world"
 version = "0.0.1"
+edition = "2021"
 authors = ["Shoaib <shoaib@actonate.com>"]
 repository="https://github.com/shoaibmerchant/rust-hello-world"
 
