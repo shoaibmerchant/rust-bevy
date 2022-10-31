@@ -6,7 +6,7 @@ authors = ["Shoaib <shoaib@actonate.com>"]
 repository="https://github.com/shoaibmerchant/rust-hello-world"
 
 [dependencies]
-bevy = "0.7"
+bevy = "0.6.1"
 
 [profile.release]
 lto = true
