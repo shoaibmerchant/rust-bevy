@@ -8,3 +8,6 @@ repository="https://github.com/shoaibmerchant/rust-hello-world"
 [dependencies]
 bevy = "0.8"
 
+[profile.release]
+lto = true
+
