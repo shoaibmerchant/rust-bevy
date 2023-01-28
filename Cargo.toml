@@ -1,6 +1,6 @@
 [package]
 
-name = "rust_bey"
+name = "rust_bevy"
 version = "0.0.1"
 edition = "2021"
 authors = ["Shoaib <shoaib@actonate.com>"]
