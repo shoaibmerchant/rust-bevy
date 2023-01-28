@@ -2,11 +2,15 @@ use bevy::prelude::*;
 
 fn main() {
     App::new()
-    .add_plugins(DefaultPlugins)
-    .add_startup_system(hello_world_system).run();
+        .add_plugins(DefaultPlugins)
+        .add_startup_system(setup)
+        .run();
 }
 
-fn hello_world_system() {
-    println!("hello world");
+fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
+    commands.spawn(Camera2dBundle::default());
+    commands.spawn(SpriteBundle {
+        texture: asset_server.load("logo.png"),
+        ..default()
+    });
 }
-
